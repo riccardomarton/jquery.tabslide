@@ -1,0 +1,48 @@
+.tabslide {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	overflow-x:hidden;
+}
+
+.tabslide .labels {
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #22313F;
+	height: 30px;
+}
+
+.tabslide .labels li {
+	width: auto;
+	height: 30px;
+	float: left;
+	padding: 5px 8px;
+	font-size: 16px;
+	text-align: right;
+	position: relative;
+	transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+}
+
+.tabslide .labels li.current {
+	font-weight: bold;
+	text-align: center;
+}
+
+.tabslide .labels li.current + li {
+	text-align: left;
+}
+
+.tabslide .tabs {
+	position: relative;
+	clear: both;
+
+	transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+}
+
+.tabslide .tab {
+	position: absolute;
+}
