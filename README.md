@@ -1,6 +1,6 @@
 # TabSlide
 
-TabSlide is a simple jQuery plugin that helps you to build a container with different tabs taht you can change with a swipe
+TabSlide is a simple jQuery plugin that helps you to build a container with different tabs that you can change with a swipe.
 
 ## Project Setup
 
